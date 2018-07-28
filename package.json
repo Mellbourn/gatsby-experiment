@@ -35,7 +35,7 @@
   "scripts": {
     "start": "npm run develop",
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -b master -d public",
+    "deploy": "gatsby build && gh-pages -d public",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "lint": "eslint --ext js,jsx --ignore-path .gitignore .",
